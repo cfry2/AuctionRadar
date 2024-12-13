@@ -1,12 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
-func Hello(name string) string {
-	result := "Hello " + name
-	return result
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("Hello, World!")
 }
-
 func main() {
-	fmt.Println(Hello("AuctionRadarBFF"))
+	http.HandleFunc("/", handler)
+	fmt.Println("Running BFF....")
+	http.ListenAndServe(":4000", nil)
 }
