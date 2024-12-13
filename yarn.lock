@@ -1792,6 +1792,36 @@
   resolved "https://registry.yarnpkg.com/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz#3dc35ba0f1e66b403c00b39344f870298ebb1c8e"
   integrity sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==
 
+"@nrwl/devkit@19.8.11":
+  version "19.8.11"
+  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-19.8.11.tgz#f668f2bfd8e117b921108c8e22af7b6cf5896ed2"
+  integrity sha512-99GAJ7XK3uS0YyOfK/W3kvXo7mauA7XPee54ZVY/nG/MtFrJKaUBDcyE2meZzyZT0tGQoyGwSMsktp22it35Tw==
+  dependencies:
+    "@nx/devkit" "19.8.11"
+
+"@nx-go/nx-go@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@nx-go/nx-go/-/nx-go-3.2.0.tgz#e6614c952ad71b62a088eaf80769dd619116d884"
+  integrity sha512-oGr7kCBta/PdLKKPa2pRGWHxzPAbTvS1eZA+3NqEniw7JScVn+2w+6A/dctyPRidBQMwlpUO4mgfHzbwwt0xiQ==
+  dependencies:
+    "@nx/devkit" "^17.0.0 || ^18.0.0 || ^19.0.0"
+    tslib "^2.3.0"
+
+"@nx/devkit@19.8.11", "@nx/devkit@^17.0.0 || ^18.0.0 || ^19.0.0":
+  version "19.8.11"
+  resolved "https://registry.yarnpkg.com/@nx/devkit/-/devkit-19.8.11.tgz#79a19b0ac30ef522acc5ec2dcf763d01e6957966"
+  integrity sha512-9Ath0++R8lKeqSGmlZHNf99oa+7vKXWmjYnvDrhU7qq8RXpyccu6VhU11P69FH0oecg2lTNk6AGBXq12E8r2hQ==
+  dependencies:
+    "@nrwl/devkit" "19.8.11"
+    ejs "^3.1.7"
+    enquirer "~2.3.6"
+    ignore "^5.0.4"
+    minimatch "9.0.3"
+    semver "^7.5.3"
+    tmp "~0.2.1"
+    tslib "^2.3.0"
+    yargs-parser "21.1.1"
+
 "@nx/devkit@20.1.2":
   version "20.1.2"
   resolved "https://registry.yarnpkg.com/@nx/devkit/-/devkit-20.1.2.tgz#10280e90aad081d7ba7b9366f4bc0abb46e65397"

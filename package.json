@@ -2,7 +2,9 @@
   "name": "@auction-radar/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many -t dev"
+  },
   "private": true,
   "dependencies": {
     "next": "14.2.16",
@@ -12,6 +14,7 @@
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.8.0",
+    "@nx-go/nx-go": "^3.2.0",
     "@nx/eslint": "20.1.2",
     "@nx/eslint-plugin": "20.1.2",
     "@nx/jest": "20.1.2",
